@@ -1,0 +1,25 @@
+TP PHP - LE SITE DE LA JOURNEE MULTIMEDIA UNCHK
+Licence 2 MIC - Dr Marie Helene Mballo
+================================================
+
+CONTENU DU KIT
+  index.php    : la page a completer (exercices 1 a 8)
+  style.css    : la mise en forme, deja prete (ne pas modifier)
+  LISEZMOI.txt : ce fichier
+
+INSTALLATION
+  1. Copier le dossier tp-journee-multimedia dans C:\xampp\htdocs
+  2. Demarrer Apache dans XAMPP
+  3. Ouvrir le dossier dans VS Code
+  4. Dans le navigateur : http://localhost/tp-journee-multimedia/
+
+A CHAQUE MODIFICATION
+  Enregistrer (Ctrl + S), puis recharger la page (F5).
+
+ATTENTION
+  N'ouvrez jamais index.php par un double clic :
+  passez toujours par http://localhost/...
+
+RENDU
+  Compresser le dossier complete (ZIP) et le deposer sur la plateforme,
+  avec les captures d'ecran demandees dans l'enonce.

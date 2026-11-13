@@ -1,0 +1,118 @@
+/* ============================================
+   TP PHP - Journée Multimédia UNCHK
+   Feuille de style : déjà prête, ne pas modifier
+   ============================================ */
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f8;
+    color: #1f2430;
+    line-height: 1.5;
+}
+
+header {
+    background: #1b2a4a;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 { margin: 0 0 8px; font-size: 2.2em; }
+header p  { margin: 0; color: #f28c28; font-size: 1.2em; }
+
+.bienvenue {
+    background: #f28c28;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.partie {
+    margin: 40px 0 10px;
+    color: #1b2a4a;
+    border-bottom: 3px solid #f28c28;
+    padding-bottom: 6px;
+}
+
+.carte {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.carte h2 { margin-top: 0; color: #1b2a4a; font-size: 1.3em; }
+
+.numero {
+    display: inline-block;
+    background: #1b2a4a;
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 0.75em;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* Texte à supprimer quand l'exercice est fait */
+.a-faire {
+    color: #9aa3b5;
+    font-style: italic;
+    border: 2px dashed #c9cfda;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Messages */
+.ok      { color: #13957f; font-weight: bold; }
+.alerte  { color: #d97706; font-weight: bold; }
+.complet { color: #d64545; font-weight: bold; }
+.erreur  { background: #fbecec; color: #d64545; padding: 10px; border-radius: 6px; }
+.succes  { background: #e3f4f0; color: #13957f; padding: 10px; border-radius: 6px; font-weight: bold; }
+
+/* Liste des ateliers */
+ul.ateliers { padding-left: 20px; }
+ul.ateliers li { padding: 4px 0; }
+
+/* Formulaire */
+form label { display: block; margin-top: 12px; font-weight: bold; }
+
+form input, form select {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    border: 1px solid #c9cfda;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+form button {
+    margin-top: 16px;
+    background: #1b2a4a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form button:hover { background: #f28c28; }
+
+footer {
+    text-align: center;
+    color: #5b6475;
+    padding: 30px;
+    font-size: 0.9em;
+}
